@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./css/alarmClock.css">
+<script src="./js/alarmClock.js"></script>
+</head>
+
+<body>
+	<div id="parentDiv">
+		<div id="upperPanel">Clock
+				<button id="Edit" style="display:none">Edit</button>
+				<button id="Add" style="display:none">Add</button>
+				<button id="Done" style="display:none">Done</button>
+				<button id="Cancel" style="display:none">Cancel</button>
+				<button id="Save" style="display:none">Save</button>
+		</div>
+		<div id="midPanel">
+			<div id="time"></div>
+			<div id="date"></div>
+		</div>
+		<div id="lowerPanel">
+			<button id="Clock">Clock</button>
+			<button id="Alarm">Alarm</button>
+		</div>
+	</div>
+</body>
+<script>
+			var alarmClockObj = new alarmClock();
+			alarmClockObj.init();
+</script>
+</html>

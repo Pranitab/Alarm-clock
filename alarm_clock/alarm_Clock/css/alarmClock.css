@@ -1,0 +1,341 @@
+#parentDiv{
+	width: 500px;
+	height: 500px;
+	position:absolute;
+	border:1px solid grey;
+}
+#upperPanel{
+	position:relative;
+	width: 100%;
+	height: 40px;
+	font-family: arial;
+	background-color:#ece9e9;
+	border-bottom: 1px solid black;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#time{
+	text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+	font-family: arial;
+}
+#alarmTime{
+	text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+	font-family: arial;
+}
+#date{
+	text-align: center;
+    font-size: 21px;
+    color: #9b9696;
+	font-family: arial;
+}
+#lowerPanel{
+	position:absolute;
+	width: 100%;
+	height: 40px;
+	bottom:0px;
+	background-color:#ece9e9;
+}
+#midPanel{/* 
+	padding: 40px 0px 40px 0px; */
+	overflow-y: auto;
+    height: 340px;
+}	
+#Clock{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+#Alarm{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+    right: 0px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+#Edit{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+#Done{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+#Cancel{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+#Add{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+    right: 0px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+#Save{
+	position: absolute;
+	top: 10px;
+    font-size: 15px;
+    right: 0px;
+	color:blue;
+	border: none;
+	cursor: pointer;
+	outline: none;
+    background-color: transparent;
+}
+.alarmComp{
+	position:relative;
+	width:100%;
+	height:60px;
+	border-top:1px solid black;
+	background-color:#c9f0f1;
+	box-sizing: border-box;
+}
+.timeComp{
+	position:absolute;
+	padding: 10px;
+	font-weight: bold;
+    font-family: arial; 
+}
+.reasonComp{
+	position: absolute;
+    font-family: arial;
+    padding: 30px 0px 10px 10px;
+}
+.checkBoxComp{
+	position: relative;
+    width: 20px;
+    height: 20px;
+    left: 450px;
+    top: 20px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.checkBoxSnoozeComp{
+	position: relative;
+    width: 20px;
+    height: 20px;
+    left: 450px;
+    top: -10px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.crossDiv{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-family: arial;
+    text-align: center;
+	border: none;
+	cursor:pointer;
+}
+.nextDiv{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 18px;
+    right: 20px;
+    background-color: transparent;
+    color: black;
+    font-family: arial;
+    text-align: center;
+	border: none;
+	cursor:pointer;
+	font-weight: bold;
+    font-size: 20px;
+}
+.subTitleComp{
+	padding-left:10px;
+	font-family: arial;
+	height: 40px;
+    background-color: lightcyan;
+	display: flex;
+    vertical-align: bottom;
+    align-items: flex-end;
+}
+.infoSelectComp{
+	width:100%;
+	height:130px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.selectDayComp{
+	width:100%;
+	height:auto;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.selectSoundComp{
+	width:100%;
+	height:auto;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+#hour{
+	width: 70px;
+    height: 25px;
+    position: relative;
+    left: 15px;
+	top: 10px;
+}
+#minute{
+	width: 70px;
+    height: 25px;
+    position: relative;
+    left: 30px;
+	top: 10px;
+}
+#ampm{
+    width: 70px;
+    height: 25px;
+    position: relative;
+    left: 45px;
+    top: 10px;
+}
+.snoozComp{
+	position: relative;
+    top: 20px;
+    width: 200px;
+    color: black;
+    font-family: arial;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.labelComp{
+	position: relative;
+    width: 200px;
+    color: black;
+    font-family: arial;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.inputBox{
+    position: relative;
+    left: 120px;
+    top: -28px;
+    padding: 0px;
+    width: 335px;
+}
+.checkBoxDayComp{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.radioComp{
+	position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    border: 1px solid black;
+	border-radius:50%;
+    background-color: white;
+    cursor: pointer;
+}
+.dayComp{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    font-family: arial;
+    border-bottom: 1px solid black;
+}
+.saveAlarmComp{
+    width: 80%;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+	font-family: arial;    
+	background-color: white;
+    border: 1px solid green;
+	cursor:pointer;
+}
+.deleteAlarmComp{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+	font-family: arial;
+	background-color: white;
+    border: 1px solid red;
+	cursor:pointer;
+}
+.snoozeBtnComp{
+	width: 80%;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+	font-family: arial;    
+	background-color: white;
+    border: 2px solid black;
+	cursor:pointer;
+	font-size: 20px;
+}
+.stopBtnComp{
+    width: 80%;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 50px;
+	font-family: arial;
+	background-color: white;
+    border: 2px solid black;
+	cursor:pointer;
+	font-size: 20px;
+}
+#noteComp{
+	text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+	font-family: arial;
+}
